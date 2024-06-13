@@ -1,0 +1,47 @@
+Feature: Lexisnexis automated script
+
+  Scenario: Under Choose Your Industry heading clicking and asserting elements availability                   [90m# lexisnesxis.feature:2[0m
+    [32mGiven [0m[32mUser is on the lexisnexis home page[0m                                                                 [90m# LexisnexisStpDftn.user_is_on_the_lexisnexis_home_page()[0m
+    [32mWhen [0m[32mUser click on Choose Your Industry tab[0m                                                               [90m# LexisnexisStpDftn.user_click_on_Choose_Your_Industry_tab()[0m
+    [32mThen [0m[32mIndustry page should be Industries Page Displayed[0m                                                    [90m# LexisnexisStpDftn.industry_page_should_be_Industries_Page_Displayed()[0m
+    [32mAnd [0m[32mFinancial Services link should be Financial Services LinkDisplayed and click able[0m                     [90m# LexisnexisStpDftn.financial_Services_link_should_be_Financial_Services_LinkDisplayed_and_click_able()[0m
+    [32mAnd [0m[32mInsurance link should be Insurance Link Displayed and click able[0m                                      [90m# LexisnexisStpDftn.insurance_link_should_be_Insurance_Link_Displayed_and_click_able()[0m
+    [32mAnd [0m[32mLife and Pensions link should be LifeAnd Pensions LinkDisplayed and click able[0m                        [90m# LexisnexisStpDftn.life_and_Pensions_link_should_be_LifeAnd_Pensions_LinkDisplayed_and_click_able()[0m
+    [32mAnd [0m[32mCorporations and Non-Profits link should be Corporations AndNon Profits Link Displayed and click able[0m [90m# LexisnexisStpDftn.corporations_and_Non_Profits_link_should_be_Corporations_AndNon_Profits_Link_Displayed_and_click_able()[0m
+
+  Scenario Outline: In Choose your Industry Tab, Select an Industry, then Select Financial Services                    [90m# lexisnesxis.feature:12[0m
+    [36mGiven [0m[36mUser is on the lexisnexis home page[0m
+    [36mAnd [0m[36mUser click on Choose Your Industry tab[0m
+    [36mAnd [0m[36mIndustry page should be "<IndustriesPageDisplayed>"[0m
+    [36mWhen [0m[36mUser click Your Financial Services link[0m
+    [36mThen [0m[36mView Financial Services  Home should be View Financial Services Home Displayed[0m
+    [36mAnd [0m[36mFinancial Crime Compliance link should be Financial CrimeCompliance Link Displayed and click able[0m
+    [36mAnd [0m[36mCustomer Data Management link should be Customer DataManagement Link Displayed and click able[0m
+    [36mAnd [0m[36mCollections & Recovery link should be Collections & Recovery Link Displayed and click able[0m
+    [36mAnd [0m[36mRisk Orchestration link should be RiskOrchestrationLinkDisplayed and click able[0m
+    [36mAnd [0m[36mFraud and Identity Management link should be Fraud AndIdentity Management Link Displayed and click able[0m
+    [36mAnd [0m[36mCredit Risk Assessment link should be Credit RiskAssessment Link Displayed and click able[0m
+    [36mAnd [0m[36mInvestigations and Due Diligence link should be Investigations And Due Diligence Link Displayed and click able[0m
+
+    Examples: 
+
+  Scenario Outline: In Choose your Industry Tab, Select an Industry, then Select Financial Services                    [90m# lexisnesxis.feature:27[0m
+    [32mGiven [0m[32mUser is on the lexisnexis home page[0m                                                                          [90m# LexisnexisStpDftn.user_is_on_the_lexisnexis_home_page()[0m
+    [32mAnd [0m[32mUser click on Choose Your Industry tab[0m                                                                         [90m# LexisnexisStpDftn.user_click_on_Choose_Your_Industry_tab()[0m
+    [32mAnd [0m[32mIndustry page should be "[0m[32m[1mIndustries[0m[32m"[0m                                                                           [90m# LexisnexisStpDftn.industry_page_should_be(String)[0m
+    [32mWhen [0m[32mUser click Your Financial Services link[0m                                                                       [90m# LexisnexisStpDftn.user_click_Your_Financial_Services_link()[0m
+    [32mThen [0m[32mView Financial Services  Home should be View Financial Services Home Displayed[0m                                [90m# LexisnexisStpDftn.view_Financial_Services_Home_should_be_View_Financial_Services_Home_Displayed()[0m
+    [32mAnd [0m[32mFinancial Crime Compliance link should be Financial CrimeCompliance Link Displayed and click able[0m              [90m# LexisnexisStpDftn.financial_Crime_Compliance_link_should_be_Financial_CrimeCompliance_Link_Displayed_and_click_able()[0m
+    [32mAnd [0m[32mCustomer Data Management link should be Customer DataManagement Link Displayed and click able[0m                  [90m# LexisnexisStpDftn.customer_Data_Management_link_should_be_Customer_DataManagement_Link_Displayed_and_click_able()[0m
+    [32mAnd [0m[32mCollections & Recovery link should be Collections & Recovery Link Displayed and click able[0m                     [90m# LexisnexisStpDftn.collections_Recovery_link_should_be_Collections_Recovery_Link_Displayed_and_click_able()[0m
+    [32mAnd [0m[32mRisk Orchestration link should be RiskOrchestrationLinkDisplayed and click able[0m                                [90m# LexisnexisStpDftn.risk_Orchestration_link_should_be_RiskOrchestrationLinkDisplayed_and_click_able()[0m
+    [32mAnd [0m[32mFraud and Identity Management link should be Fraud AndIdentity Management Link Displayed and click able[0m        [90m# LexisnexisStpDftn.fraud_and_Identity_Management_link_should_be_Fraud_AndIdentity_Management_Link_Displayed_and_click_able()[0m
+    [32mAnd [0m[32mCredit Risk Assessment link should be Credit RiskAssessment Link Displayed and click able[0m                      [90m# LexisnexisStpDftn.credit_Risk_Assessment_link_should_be_Credit_RiskAssessment_Link_Displayed_and_click_able()[0m
+    [32mAnd [0m[32mInvestigations and Due Diligence link should be Investigations And Due Diligence Link Displayed and click able[0m [90m# LexisnexisStpDftn.investigations_and_Due_Diligence_link_should_be_Investigations_And_Due_Diligence_Link_Displayed_and_click_able()[0m
+Feature: Lexisnexis
+
+  @Regression
+  Scenario: Lexisnexis                   [90m# lexisnexis2.feature:4[0m
+    [32mGiven [0m[32mam on the lexisnexis home page[0m [90m# StepDeftn.am_on_the_lexisnexis_home_page()[0m
+    [32mWhen [0m[32mUser click on[0m                   [90m# StepDeftn.user_click_on()[0m
+    [32mThen [0m[32mThis page should be displayed[0m   [90m# StepDeftn.this_page_should_be_displayed()[0m
