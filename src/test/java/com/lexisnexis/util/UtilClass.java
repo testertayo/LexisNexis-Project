@@ -193,7 +193,7 @@ public class UtilClass {
 
 
     public static void assertWebElementContains(By identifier, String textContained) {
-        assertTrue("Moyo is a boy", Hook.driver.findElement(identifier).getText().contains(textContained));
+        assertTrue("This is true", Hook.driver.findElement(identifier).getText().contains(textContained));
     }
 
     public static void assertSelectOption(By identifier, String option) {

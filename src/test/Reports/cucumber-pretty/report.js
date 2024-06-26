@@ -53,49 +53,49 @@ formatter.match({
   "location": "LexisnexisStpDftn.user_is_on_the_lexisnexis_home_page()"
 });
 formatter.result({
-  "duration": 4156322200,
+  "duration": 6127320100,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.user_click_on_Choose_Your_Industry_tab()"
 });
 formatter.result({
-  "duration": 465433208,
+  "duration": 468581500,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.industry_page_should_be_Industries_Page_Displayed()"
 });
 formatter.result({
-  "duration": 107054600,
+  "duration": 106436200,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.financial_Services_link_should_be_Financial_Services_LinkDisplayed_and_click_able()"
 });
 formatter.result({
-  "duration": 98466192,
+  "duration": 109218900,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.insurance_link_should_be_Insurance_Link_Displayed_and_click_able()"
 });
 formatter.result({
-  "duration": 81795896,
+  "duration": 92506000,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.life_and_Pensions_link_should_be_LifeAnd_Pensions_LinkDisplayed_and_click_able()"
 });
 formatter.result({
-  "duration": 82747504,
+  "duration": 70001500,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.corporations_and_Non_Profits_link_should_be_Corporations_AndNon_Profits_Link_Displayed_and_click_able()"
 });
 formatter.result({
-  "duration": 770669504,
+  "duration": 686752100,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -264,14 +264,14 @@ formatter.match({
   "location": "LexisnexisStpDftn.user_is_on_the_lexisnexis_home_page()"
 });
 formatter.result({
-  "duration": 2721364304,
+  "duration": 2767595000,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.user_click_on_Choose_Your_Industry_tab()"
 });
 formatter.result({
-  "duration": 498667200,
+  "duration": 478881900,
   "status": "passed"
 });
 formatter.match({
@@ -284,70 +284,70 @@ formatter.match({
   "location": "LexisnexisStpDftn.industry_page_should_be(String)"
 });
 formatter.result({
-  "duration": 126461104,
+  "duration": 128338400,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.user_click_Your_Financial_Services_link()"
 });
 formatter.result({
-  "duration": 138602296,
+  "duration": 100484000,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.view_Financial_Services_Home_should_be_View_Financial_Services_Home_Displayed()"
 });
 formatter.result({
-  "duration": 90418504,
+  "duration": 95850100,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.financial_Crime_Compliance_link_should_be_Financial_CrimeCompliance_Link_Displayed_and_click_able()"
 });
 formatter.result({
-  "duration": 92908696,
+  "duration": 67677800,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.customer_Data_Management_link_should_be_Customer_DataManagement_Link_Displayed_and_click_able()"
 });
 formatter.result({
-  "duration": 84806608,
+  "duration": 81597600,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.collections_Recovery_link_should_be_Collections_Recovery_Link_Displayed_and_click_able()"
 });
 formatter.result({
-  "duration": 96113304,
+  "duration": 80955700,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.risk_Orchestration_link_should_be_RiskOrchestrationLinkDisplayed_and_click_able()"
 });
 formatter.result({
-  "duration": 101608400,
+  "duration": 124509100,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.fraud_and_Identity_Management_link_should_be_Fraud_AndIdentity_Management_Link_Displayed_and_click_able()"
 });
 formatter.result({
-  "duration": 92955000,
+  "duration": 85835300,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.credit_Risk_Assessment_link_should_be_Credit_RiskAssessment_Link_Displayed_and_click_able()"
 });
 formatter.result({
-  "duration": 92333192,
+  "duration": 69184200,
   "status": "passed"
 });
 formatter.match({
   "location": "LexisnexisStpDftn.investigations_and_Due_Diligence_link_should_be_Investigations_And_Due_Diligence_Link_Displayed_and_click_able()"
 });
 formatter.result({
-  "duration": 767571200,
+  "duration": 719908700,
   "status": "passed"
 });
 formatter.uri("lexisnexis2.feature");
@@ -391,21 +391,21 @@ formatter.match({
   "location": "StepDeftn.am_on_the_lexisnexis_home_page()"
 });
 formatter.result({
-  "duration": 2755841904,
+  "duration": 2728960800,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDeftn.user_click_on()"
 });
 formatter.result({
-  "duration": 428425104,
+  "duration": 437225100,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDeftn.this_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 653085296,
+  "duration": 671519900,
   "status": "passed"
 });
 });
